@@ -50,5 +50,6 @@ BEGIN
 		FROM [Production].[Product]
 	END
 END
+GO
 
 GRANT EXECUTE ON p_get_mars_attack TO [mars_attack_user];
